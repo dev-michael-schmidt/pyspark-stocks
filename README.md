@@ -1,13 +1,19 @@
-example output
-  
-Date  
-Opening price  
-High that day  
-Low that day  
-Closing price  
-Symbol  
-sma_10d  -- a 10 day simple moving average  
-ema_10  -- a 10 day exponential moving average  
+This PySpark project fetches data from Yahoo Finance's public stock data API, parses the CSV and loads it into a PySpark DataFrame, and then performs (currently)
+- Simple Moving Average (specify window in days)
+- Exponential Moving Average (specify in days)
+
+This DataFrame includes:
+- Date  
+- Opening price
+- High price of the day
+- Low price of the day
+- The Closing price
+- Symbol
+- sma_10d  -- a 10-day simple moving average (default to 10, you can specify the span)
+- ema_10d  -- a 10-day exponential moving average (defaults to 10, you can specify span)  
+- More technical markers to come  
+
+Example output
 ```  
 +----------+---------+-------+------+-------+----------+------+--------------+---------------+
 |      date|     open|   high|   low|  close|    volume|symbol|       sma_10d|        ema_10d|
