@@ -15,6 +15,15 @@ You can include/add technicals via a builder pattern.
 - `ema_10d` a 10-day exponential moving average (defaults to 10, you can specify span)  
 - More technical markers to come  
 
+Usage:
+```
+stock_history_df = (TechnicalBuilder(stock_history_df)
+                    .SMA(10)
+                    .EMA(10)
+                    .build())
+stock_history_df.show()
+```
+
 Example output:
 ```  
 +----------+---------+-------+------+-------+----------+------+--------------+---------------+
