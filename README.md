@@ -1,13 +1,14 @@
 example output
-Date
-Opening price
-High that day
-Low that day
-Closing price
-Symbol
-sma_10d  -- a 10 day simple moving average
-ema_10  -- a 10 day exponential moving average
-```
+  
+Date  
+Opening price  
+High that day  
+Low that day  
+Closing price  
+Symbol  
+sma_10d  -- a 10 day simple moving average  
+ema_10  -- a 10 day exponential moving average  
+```  
 +----------+---------+-------+------+-------+----------+------+--------------+---------------+
 |      date|     open|   high|   low|  close|    volume|symbol|       sma_10d|        ema_10d|
 +----------+---------+-------+------+-------+----------+------+--------------+---------------+
