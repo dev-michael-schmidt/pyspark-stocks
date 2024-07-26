@@ -12,7 +12,7 @@ This DataFrame includes:
 
 You can include/add technicals via a builder pattern.
 - `sma_10d` a 10-day simple moving average (default to 10, you can specify the span)
-- `ema_10d`  -- a 10-day exponential moving average (defaults to 10, you can specify span)  
+- `ema_10d` a 10-day exponential moving average (defaults to 10, you can specify span)  
 - More technical markers to come  
 
 Example output
