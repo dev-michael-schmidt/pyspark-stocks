@@ -15,7 +15,7 @@ You can include/add technicals via a builder pattern.
 - `ema_10d` a 10-day exponential moving average (defaults to 10, you can specify span)  
 - More technical markers to come  
 
-Example output
+Example output:
 ```  
 +----------+---------+-------+------+-------+----------+------+--------------+---------------+
 |      date|     open|   high|   low|  close|    volume|symbol|       sma_10d|        ema_10d|
